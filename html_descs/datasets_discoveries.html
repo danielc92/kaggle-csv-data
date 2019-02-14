@@ -1,0 +1,31 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"><head><title>R: Yearly Numbers of Important Discoveries</title>
+<meta content="text/html; charset=utf-8" http-equiv="Content-Type"/>
+<link href="R.css" rel="stylesheet" type="text/css"/>
+</head><body>
+<table summary="page for discoveries" width="100%"><tr><td>discoveries</td><td style="text-align: right;">R Documentation</td></tr></table>
+<h2>Yearly Numbers of Important Discoveries</h2>
+<h3>Description</h3>
+<p>The numbers of “great” inventions and scientific
+discoveries in each year from 1860 to 1959.
+</p>
+<h3>Usage</h3>
+<pre>discoveries</pre>
+<h3>Format</h3>
+<p>A time series of 100 values.</p>
+<h3>Source</h3>
+<p>The World Almanac and Book of Facts, 1975 Edition, pages 315–318.
+</p>
+<h3>References</h3>
+<p>McNeil, D. R. (1977)
+<em>Interactive Data Analysis</em>.
+Wiley.
+</p>
+<h3>Examples</h3>
+<pre>
+require(graphics)
+plot(discoveries, ylab = "Number of important discoveries",
+     las = 1)
+title(main = "discoveries data set")
+</pre>
+</body></html>
